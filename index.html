@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--site SEO info-->
+	<meta charset="utf-8">
+    <meta name="discrption" content="A Rising steel structure building company in Bangladesh. Premium steel ltd." />
+    <title>Auto.PT | Compra e Venda de Carros Usados ao melhor preço</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	    <!--site icon-->
+	    <link href="asset/images/favicon.ico" rel="icon" type="image/x-icon"/>
+
+	    <!--font awesome-->
+
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	    
+        <!--css-->  
+	    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+	
+
+
+	<header class="flex-layout">
+		<div class="container-box header-back">
+
+			<div class="mobile-menu-bar">
+				<a href="#" id="bar">
+					<i class="fa-solid fa-bars"></i>
+				</a>
+			</div>
+
+			<div class="logo">
+				<img src="asset/images/logo.png">
+			</div>
+
+			<div class="mobile-account-bar">
+				<a href="#" id="bar-two">
+					<i class="fa-solid fa-user"></i>
+				</a>
+			</div>
+
+
+			<div class="authentication-box" id="authentication-box">
+				<div id="authentication" class="authentication">
+					<div id="authenticationbar" class="bar expandable">
+						<a href="#">Entrar</a> | <a href="/registar" class="external-link">Registar</a>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+
+					<div class="loginbox">
+						<div class="title">Entrar</div>
+							<form action="/login_check" method="post" class="ng-pristine ng-valid">
+							<div class="form-group">
+								<label for="username">Utilizador:</label>
+								<input type="text" id="username" name="_username" required="required" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="password">Password:</label>
+								<input type="password" id="password" name="_password" required="required" class="form-control">
+							</div>
+							<div class="check-group">
+								<input type="checkbox" id="remember_me" name="_remember_me" value="on">
+								<label for="remember_me">Lembrar-me</label>
+							</div>
+							<div class="clearfix links">
+								<div class="pull-left">
+									<a href="/recuperar-password">Esqueci-me da palavra-passe</a>
+									<br>
+									<a href="/registar" class="red">Ainda não estou registado</a>
+								</div>
+								<div class="pull-right">
+									<button type="submit" class="btn btn-default" id="_submit" name="_submit">Entrar <i class="fa fa-chevron-circle-right"></i></button>
+								</div>
+							</div>
+							</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<section class="mobile-menu" id="mobile-menu">
+		<div class="container-box">
+			<ul>
+				<li>
+					<a href="/vender">
+						<div>Vender</div>
+						<div>Criar Anúncio Grátis</div>
+					</a>
+				</li>
+				<li>
+					<a href="/carros-usados">
+						<div class="title">Carros</div>
+						<div class="subtitle">Carros Usados</div>
+					</a>
+				</li>
+				<li>
+					<a href="/motas-usadas">
+						<div class="title">Motas</div>
+						<div class="subtitle">Motas Usadas</div>
+					</a>
+				</li>
+				<li>
+					<a href="/barcos-usados">
+						<div class="title">Barcos</div>
+						<div class="subtitle">Barcos Usados</div>
+					</a>
+				</li>
+				<li>
+					<a href="/stands">
+						<div class="title">Stands</div>
+						<div class="subtitle">Stands Auto</div>
+					</a>
+				</li>
+				<li>
+					<a href="/noticias">
+						<div class="title">Notícias</div>
+						<div class="subtitle">Notícias Auto</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section class="account-menu" id="account-menu">
+		<div class="container-box">
+			<ul>
+				<li>
+					<a href="/vender">
+						<div>Entrar</div>
+						<div>Fazer login</div>
+					</a>
+				</li>
+				<li>
+					<a href="/carros-usados">
+						<div class="title">Registar</div>
+						<div class="subtitle">Criar nova conta</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section class="menu-box flex-layout">
+		<div class="container-box menu-flex">
+			<div class="main-menu">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Carros</h3>
+							<h6>Carros Usados</h6>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<h3>Motas</h3>
+							<h6>Motas Usadas</h6>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<h3>Barcos</h3>
+							<h6>Barcos Usados</h6>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<h3>Stands</h3>
+							<h6>Stands Auto</h6>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<h3>Notícias</h3>
+							<h6>Notícias Auto</h6>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="vendor-button">
+				<a href="#">
+					Vender <span>Grátis</span>
+					<i class="fa-solid fa-circle-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="banner">
+		<div class="banner-one" id="banner-one" style="background-image: url('asset/images/carheader.jpg');"></div>
+		<div class="banner-two" id="banner-two" style="background-image: url('asset/images/bikeheader.jpg');"></div>
+		<div class="banner-three" id="banner-three" style="background-image: url('asset/images/boatheader.jpg');"></div>
+
+		<div class="banner-content flex-layout">
+			<div class="container-box">
+				<h1>Anúncios de carros usados, motas e barcos</h1>
+				<h6>Encontre o seu carro usado ao melhor preço, ou poderá anunciar grátis a sua viatura usada</h6>
+			</div>
+
+			<div class="category-box container-box">
+				<div class="category-button">
+					<a href="#" id="category-button-one" onclick="oncar()">
+						<i class="fa-solid fa-car-side"></i>						
+						Carros Usados
+					</a>
+
+					<a href="#" id="category-button-two" onclick="onbike()">
+						<i class="fa-sharp fa-solid fa-motorcycle"></i>						
+						Motas Usadas
+					</a>
+
+					<a href="#" id="category-button-three" onclick="onship()">
+						<i class="fa-sharp fa-solid fa-sailboat"></i>
+						Barcos Usados
+					</a>
+				</div>
+				<div class="category-select">
+					<!-- first -->
+					<div class="category-divide">
+						<select>
+							<option>Aeon</option>
+							<option>Aprilia</option>
+							<option>BMW</option>
+							<option>Benelli</option>
+							<option>Bombardier</option>
+							<option>Buell</option>
+							<option>Cagiva</option>
+							<option>Casal</option>
+							<option>Ducati</option>
+							<option>Famel</option>
+							<option>Harley Davidson</option>
+							<option>Honda</option>
+							<option>Husqvarna</option>
+							<option>KTM</option>
+							<option>Kawasaki</option>
+							<option>Keeway</option>
+							<option>Kinroad</option>
+							<option>Kymco</option>
+							<option>Mv Agusta</option>
+							<option>Peugeot</option>
+							<option>Piaggio</option>
+							<option>Polaris</option>
+							<option>Suzuki</option>
+							<option>Sym</option>
+							<option>Triumph</option>
+						</select>
+					</div>
+
+					<!-- second -->
+
+					<div class="category-divide" id="modelo">
+						<select disabled>
+							<option>Modelo</option>
+						</select>
+					</div>
+
+					<!-- third -->
+
+					<div class="category-divide" id="combustível">
+						<select>
+							<option>Híbrido</option>
+							<option>GPL</option>
+							<option>Gasolina</option>
+							<option>Diesel</option>
+							<option>Eléctrico</option>
+						</select>
+					</div>
+
+					<div class="category-divide" id="categoria">
+						<select>
+							<option>Scooter/Vespa</option>
+							<option>Trail</option>
+							<option>Chooper/Cruiser</option>
+							<option>Utilitária</option>
+							<option>Sport/Competição</option>
+						</select>
+					</div>
+
+					<div class="category-divide" id="propulsão">
+						<select>
+							<option>Vapor</option>
+							<option>Gasolina</option>
+							<option>Outra</option>
+							<option>Vela</option>
+							<option>Diesel</option>
+						</select>
+					</div>
+
+					<!-- fourth -->
+
+					<div class="category-divide">
+						<select>
+							<option>Aveiro</option>
+							<option>Açores</option>
+							<option>Beja</option>
+							<option>Braga</option>
+							<option>Bragança</option>
+							<option>Castelo Branco</option>
+						</select>
+					</div>
+
+					<div class="category-divide">
+						<a href="#">
+							Ver Resultados 
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="featured-cars flex-layout">
+		<div class="container-box">
+			<h4>
+				<i class="fa-solid fa-chevron-down"></i>
+				<b>Carros Usados </b><span>em Destaque</span>
+			</h4>
+
+
+			<div class="car-flex">
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/1.jpg">
+						<div class="car-box-content">
+							<h5>Volkswagen Golf Versão 25 anos com 36 mil km</h5>
+							<div class="price">€4.199</div>
+							<p>
+								 Ano: 2002, Gasolina <br>
+								 36.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/2.jpg">
+						<div class="car-box-content">
+							<h5>Seat Ateca STYLE</h5>
+							<div class="price">€22.000</div>
+							<p>
+								Ano: 2017, Diesel<br>
+								95.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/3.jpg">
+						<div class="car-box-content">
+							<h5>Nissan Navara 2.5 D40 171cv</h5>
+							<div class="price">€5.500</div>
+							<p>
+								 Ano: 2008, Diesel<br>
+								 200.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/4.jpg">
+						<div class="car-box-content">
+							<h5>Seat Ibiza TDI Style DPF</h5>
+							<div class="price">€8.800</div>
+							<p>
+								Ano: 2009, Diesel<br>
+								204.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/5.jpg">
+						<div class="car-box-content">
+							<h5>Seat Ibiza 1.9 TDI 130</h5>
+							<div class="price">€7.300</div>
+							<p>
+								 Ano: 2004, Diesel<br>
+								 270.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/6.jpg">
+						<div class="car-box-content">
+							<h5>BMW 118 D 143cv</h5>
+							<div class="price">€9.950</div>
+							<p>
+								 Ano: 2009, Diesel<br>
+								 148.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/7.jpg">
+						<div class="car-box-content">
+							<h5>MINI Cooper S 163cv</h5>
+							<div class="price">€8.750</div>
+							<p>
+								 Ano: 2004, Gasolina<br>
+								 118.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/8.jpg">
+						<div class="car-box-content">
+							<h5>Smart ForFour 1.0 Passion 71 Aut.</h5>
+							<div class="price">€12.490</div>
+							<p>
+								 Ano: 2015, Gasolina<br>
+								 59.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/9.jpg">
+						<div class="car-box-content">
+							<h5>MINI 1275 GT</h5>
+							<div class="price">€22.500</div>
+							<p>
+								 Ano: 1975, Gasolina<br>
+								 55.700 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/10.jpg">
+						<div class="car-box-content">
+							<h5>Fiat 500 F</h5>
+							<div class="price">€15.250</div>
+							<p>
+								 Ano: 1971, Gasolina<br>
+								 9.400 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/11.jpg">
+						<div class="car-box-content">
+							<h5>Smart ForTwo Prime</h5>
+							<div class="price">€13.900</div>
+							<p>
+								 Ano: 2019, Gasolina<br>
+								 37.200 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/12.jpg">
+						<div class="car-box-content">
+							<h5>Fiat Grande Punto 1.3 MULTIJET</h5>
+							<div class="price">€5.500</div>
+							<p>
+								 Ano: 2010, Diesel<br>
+								 258.757 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/13.jpg">
+						<div class="car-box-content">
+							<h5>BMW 320 D</h5>
+							<div class="price">€1.000</div>
+							<p>
+								 Ano: 2002, Diesel<br>
+								 261.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/14.jpg">
+						<div class="car-box-content">
+							<h5>Hyundai Santa Fe 7Wagon 2.2 CRDi</h5>
+							<div class="price">€8.500</div>
+							<p>
+								 Ano: 2008, Diesel<br>
+								 218.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/15.jpg">
+						<div class="car-box-content">
+							<h5>Volkswagen Golf Dti</h5>
+							<div class="price">€1.500</div>
+							<p>
+								 Ano: 2008, Diesel<br>
+								 163.500 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/16.jpg">
+						<div class="car-box-content">
+							<h5>Audi A3 3</h5>
+							<div class="price">€2.000</div>
+							<p>
+								 Ano: 2008, Diesel<br>
+								 100.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/16.jpg">
+						<div class="car-box-content">
+							<h5>Audi A3 3</h5>
+							<div class="price">€2.000</div>
+							<p>
+								 Ano: 2008, Diesel<br>
+								 100.000 kms
+							</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="car-box">
+					<a href="#">
+						<img src="asset/images/17.jpg">
+						<div class="car-box-content">
+							<h5>Toyota Yaris 1.5 Hybrid HSD Comfort + Pack Style</h5>
+							<div class="price">€16.950</div>
+							<p>
+								 Ano: 2017, Gasolina<br>
+								 57.000 kms
+							</p>
+						</div>
+					</a>
+				</div>	
+			</div>
+
+			<div class="see-more">
+				<div class="vendor-button">
+					<a href="#">Ver mais carros usados</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="prefooter flex-layout">
+		<div class="container-box prefooter-flex">
+			<div class="prefooter-divide-box">
+
+				<div class="title">
+					<i class="fa fa-rss"></i>
+					<font> Últimas <span>Notícias Auto</span></font>
+				</div>	
+
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-angles-right"></i>
+							<font> Atenção consumidores! a partir de Setembro comprar carro vai sair mais caro</font>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-angles-right"></i>
+							<font> Car2Car vai integrar modelos Volkswagen em 2019</font>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<i class="fa-solid fa-angles-right"></i>
+							<font> Há um modelo de automóvel que não morre ninguém em acidente à 16 anos</font>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="prefooter-divide-box" style="display: flex;flex-direction: column;align-items: center;">
+
+				<div class="title" style="text-align: center;">
+					<font>SUBSCREVA A NOSSA <span>NEWSLETTER</span></font>
+				</div>	
+
+				<div class="subscribe-form">
+					<form>
+						<input type="email" name="email" placeholder="Endereço de email">
+						<button type="submit">Subscrever</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="prefooter-divide-box" style="display: flex;flex-direction: column;align-items: flex-end;">
+
+				<div class="title">
+					<font><span>SIGA-NOS</span> EM</font>
+				</div>	
+
+				<div class="icon-flex">
+
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="c1">
+							<path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/>
+						</svg>
+					</a>
+
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="c2">
+							<path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="prefooter-two flex-layout">
+		<div class="container-box">
+			<h4>Quer comprar carro barato? Quer vender o seu automóvel? Todas as marcas, qualquer modelo no Auto.PT!</h4>
+
+			<p>Procura <a href="#">carros usados</a> a um preço nunca antes estreado? No site auto.pt encontra os melhores usados da internet.</p>
+
+			<p>Iremos ajudá-lo a comprar e vender carros, motos e barcos de uma forma citadina, desportiva e utilitária. Visitar os melhores stands do país num só lugar? Sim, na auto.pt é possível! A nossa extensa base de dados está em constante actualização, permitindo que encontre, a cada dia, novas e melhores oportunidades de negócio.</p>
+
+			<p>Inteligente, rápida e eficaz. É assim a nossa pesquisa. Queremos que a experiência de comprar veículos usados seja uma viagem curta e agradável. Um carro desportivo a um preço justo, uma moto para os passeios de fim-de-semana ou mesmo aquele barco que sempre quis ter? Bastam alguns cliques e já encontrou!</p>
+
+			<p>Só há um site de carros usados na internet onde comprar é fácil e vender é garantido. <b>auto.pt</b> - Poupe tempo e dinheiro sem poupar nas expectativas. Experimente, vai correr sobre rodas!</p>
+		</div>
+	</section>
+
+
+	<footer class="flex-layout">
+		<div class="container-box footer-flex">
+			<div class="footer-logo">
+				<img src="asset/images/logo.png">
+			</div>
+
+			<div class="footer-links">
+				<a href="/sobre">Sobre</a> - <a href="/anunciar">Anunciar no Auto.pt</a> - <a href="/termos-e-condicoes">Termos e condições</a> - <a href="/fraudes">Fraudes</a> - <a href="/perguntas-frequentes">Dúvidas</a> - <a href="/sitemap">Sitemap</a> - <a href="/contactar">Contactos</a> <br> ©2022 AUTO.PT - Todos os direitos reservados
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="sidebar">
+		Vender <b>Grátis</b>
+	</div>
+
+
+	<div class="overlay" id="overlay"></div>
+
+
+
+
+
+	<script>
+		const catbtnone = document.getElementById('category-button-one');
+		const catbtntwo = document.getElementById('category-button-two');
+		const catbtnthree = document.getElementById('category-button-three');
+
+
+		const bannerone = document.getElementById('banner-one');
+		const bannertwo = document.getElementById('banner-two');
+		const bannerthree = document.getElementById('banner-three');
+
+
+		const modelo = document.getElementById("modelo");
+		const combustível = document.getElementById("combustível");
+		const categoria = document.getElementById("categoria");
+		const propulsão = document.getElementById("propulsão");
+
+
+			catbtnone.style.color = "#dc312e";
+    		catbtntwo.style.color = "grey";
+    		catbtnthree.style.color = "grey";
+
+    		bannerone.style.display = "block";
+    		bannertwo.style.display = "none";
+    		bannerthree.style.display = "none";
+
+
+    		modelo.style.display = "block";
+    		combustível.style.display = "block";
+    		categoria.style.display = "none";
+    		propulsão.style.display = "none";
+
+
+    	function oncar(){
+    		catbtnone.style.color = "#dc312e";
+    		catbtntwo.style.color = "grey";
+    		catbtnthree.style.color = "grey";
+
+    		bannerone.style.display = "block";
+    		bannertwo.style.display = "none";
+    		bannerthree.style.display = "none";
+
+    		modelo.style.display = "block";
+    		combustível.style.display = "block";
+    		categoria.style.display = "none";
+    		propulsão.style.display = "none";
+    	}
+
+    	function onbike(){
+    		catbtnone.style.color = "grey";
+    		catbtntwo.style.color = "#dc312e";
+    		catbtnthree.style.color = "grey";
+
+    		bannerone.style.display = "none";
+    		bannertwo.style.display = "block";
+    		bannerthree.style.display = "none";
+
+    		modelo.style.display = "block";
+    		combustível.style.display = "none";
+    		categoria.style.display = "block";
+    		propulsão.style.display = "none";
+    	}
+
+    	function onship(){
+    		catbtnone.style.color = "grey";
+    		catbtntwo.style.color = "grey";
+    		catbtnthree.style.color = "#dc312e";
+
+    		bannerone.style.display = "none";
+    		bannertwo.style.display = "none";
+    		bannerthree.style.display = "block";
+
+    		modelo.style.display = "none";
+    		combustível.style.display = "none";
+    		categoria.style.display = "block";
+    		propulsão.style.display = "block";
+    	}
+
+	</script>
+
+
+	<script>
+		const authenticationbarbox = document.getElementById('authentication-box');
+
+		const authenticationbar = document.getElementById('authenticationbar');
+
+		const overlay = document.getElementById('overlay');
+
+		authenticationbar.onclick = function(){
+			authenticationbarbox.classList.toggle('authenticationbox-active');
+
+			overlay.style.display = "block";
+		}
+
+		overlay.onclick = function(){
+			authenticationbarbox.classList.toggle('authenticationbox-active');
+
+			overlay.style.display = "none";
+		}
+	</script>
+
+
+	<script>
+		const mainmenubar = document.getElementById("bar");
+
+		const mainmenubartwo = document.getElementById("bar-two");
+
+
+		const mobilemenu = document.getElementById("mobile-menu");
+
+		const accountmenu = document.getElementById("account-menu");
+
+
+
+		mainmenubar.onclick = function(){
+			mobilemenu.classList.toggle("mobile-menu-active");
+			accountmenu.style.display = "none";
+			mobilemenu.style.display = "block";
+		}
+
+		mainmenubartwo.onclick = function(){
+			accountmenu.classList.toggle("account-menu-active");
+			mobilemenu.style.display = "none";
+			accountmenu.style.display = "block";
+		}
+
+
+
+	</script>
+
+
+</body>
+</html>
